@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\SOA-Assignment.csproj": {}
+    "D:\\Project\\CShardProject\\SOA-Assignment\\SOA-Assignment\\SOA-Assignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\SOA-Assignment.csproj": {
+    "D:\\Project\\CShardProject\\SOA-Assignment\\SOA-Assignment\\SOA-Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\SOA-Assignment.csproj",
+        "projectUniqueName": "D:\\Project\\CShardProject\\SOA-Assignment\\SOA-Assignment\\SOA-Assignment.csproj",
         "projectName": "SOA-Assignment",
-        "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\SOA-Assignment.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\obj\\",
+        "projectPath": "D:\\Project\\CShardProject\\SOA-Assignment\\SOA-Assignment\\SOA-Assignment.csproj",
+        "packagesPath": "C:\\Users\\trabh\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\CShardProject\\SOA-Assignment\\SOA-Assignment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trabh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
