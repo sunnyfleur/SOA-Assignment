@@ -1,83 +1,63 @@
 .container {
-  width: 100vw;
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-  background-color: #F3F3F3;
+  justify-content: space-between;
 }
 
-.content {
-  flex: 1;
-  display: flex;
-  gap: 10px;
-}
-
-.content-left {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.content-left, .content-right {
+  width: 45%;
 }
 
 .search {
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .search-icon {
-  position: absolute;
-  left: 6px;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-right: 8px;
 }
 
 .search-input {
-  padding: 5px 10px 5px 25px;
-  width: 100%;
+  flex-grow: 1;
 }
 
-.content-right {
-  border-radius: 5px;
-  background-color: #fff;
-  padding: 5px;
+.products-list, .selected-products {
+  margin-top: 16px;
+}
+
+.product-item {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
-  width: 100%;
-}
-
-.info {
-  display: flex;
-  justify-content: space-around;
-  padding: 5px;
-  border-radius: 3px;
-}
-
-.add {
-  text-align: left;
-  padding: 5px 10px;
-  display: flex;
-}
-
-.add-icon {
-  margin-right: 5px;
-}
-
-.customer {
-  border: 1px solid lightgray;
-}
-
-.name {
-  flex: 2;
-}
-
-.customer-pay {
-  flex: 1;
-  display: flex;
-  justify-content: space-around;
-}
-.payment{
-  background-color: blue;
-  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
   cursor: pointer;
+}
+
+.product-item p {
+  margin: 0;
+}
+
+.customer-search, .product-search {
+  margin-bottom: 16px;
+}
+
+.customer-details, .product-details {
+  margin-bottom: 16px;
+}
+
+.summary {
+  margin-top: 16px;
+}
+
+.pay-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #0056b3;
 }

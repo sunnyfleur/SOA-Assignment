@@ -219,3 +219,7 @@ D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\refint\SOA-Assignment.d
 D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.pdb
 D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.genruntimeconfig.cache
 D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\ref\SOA-Assignment.dll
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\Frontend\package.json
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\Frontend\package-lock.json
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\package-lock.json
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\package.json

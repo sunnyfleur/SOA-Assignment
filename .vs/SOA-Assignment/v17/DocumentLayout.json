@@ -1,48 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\models\\yourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:models\\yourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\controllers\\productcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\controllers\\productcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:controllers\\productcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\models\\yourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:models\\yourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\models\\backendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\models\\backendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:models\\backendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|d:\\study\\data\\k\u1EF3 6\\soa\\soa-assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,27 +54,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "YourDbContext.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\YourDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\YourDbContext.cs",
               "RelativeDocumentMoniker": "Models\\YourDbContext.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\YourDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\YourDbContext.cs",
               "RelativeToolTip": "Models\\YourDbContext.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,9 +76,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "OrdersController.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Controllers\\OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Controllers\\OrdersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,43 +86,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ProductControllers.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Controllers\\ProductControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\ProductControllers.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductControllers.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Controllers\\ProductControllers.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\ProductControllers.cs",
               "RelativeToolTip": "Controllers\\ProductControllers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:13:46.712Z"
+              "WhenOpened": "2024-05-16T19:13:46.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:13:46.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Customer.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:13:46.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CustomersController.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Controllers\\CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "Controllers\\CustomersController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:13:46.753Z"
+              "WhenOpened": "2024-05-16T19:13:46.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Orders.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "Models\\Orders.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Orders.cs",
+              "RelativeToolTip": "Models\\Orders.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAzwAcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T19:13:46.756Z"
@@ -137,9 +138,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Products.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\Products.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Products.cs",
               "RelativeDocumentMoniker": "Models\\Products.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Products.cs",
               "RelativeToolTip": "Models\\Products.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAgwBYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,9 +150,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -161,9 +162,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BackendService.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\BackendService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\BackendService.cs",
               "RelativeDocumentMoniker": "Models\\BackendService.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\BackendService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\BackendService.cs",
               "RelativeToolTip": "Models\\BackendService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,9 +174,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "OrderItem.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "Models\\OrderItem.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\OrderItem.cs",
               "RelativeToolTip": "Models\\OrderItem.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,9 +186,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
