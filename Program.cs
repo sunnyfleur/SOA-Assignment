@@ -28,6 +28,15 @@ namespace SOA_Assignment
             builder.Services.AddDbContext<YourDbContext>(options =>
               options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            // Thêm dịch vụ CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin",
+                    builder => builder.WithOrigins("http://localhost:5174")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod());
+            });
+
             var app = builder.Build();
 
 
@@ -40,6 +49,10 @@ namespace SOA_Assignment
             app.UseRouting();
             app.UseMiddleware<RateLimitingMiddleware>();
             app.UseHttpsRedirection();
+
+            // Áp dụng chính sách CORS trước UseAuthorization
+            app.UseCors("AllowSpecificOrigin");
+
             app.UseAuthorization();
             app.MapControllers();
             app.UseEndpoints(endpoints =>

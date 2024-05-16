@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\",
+  "WorkspaceRootPath": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -88,6 +88,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "ProductControllers.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\ProductControllers.cs",
@@ -202,6 +203,43 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T13:30:37.499Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YourDbContext.cs",
+              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\YourDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\YourDbContext.cs",
+              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\YourDbContext.cs",
+              "RelativeToolTip": "Models\\YourDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T13:31:44.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BackendService.cs",
+              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\BackendService.cs",
+              "RelativeDocumentMoniker": "Models\\BackendService.cs",
+              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\BackendService.cs",
+              "RelativeToolTip": "Models\\BackendService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:14:59.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "D:\\Study\\Data\\K\u1EF3 6\\SOA\\SOA-Assignment\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAwAAAA",
+>>>>>>> Stashed changes
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:40:55.735Z"
             }
           ]
         }

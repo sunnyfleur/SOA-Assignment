@@ -1,0 +1,49 @@
+.register-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    color: #01ACC6;
+    font-weight: bold;
+}
+
+.register-content,
+.register {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 20px 40px;
+}
+
+.register-content {
+    align-items: center;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+}
+
+.register {
+    align-items: center;
+    gap: 20px;
+}
+
+.info {
+    width: 100%;
+    border: none;
+    padding: 7px 15px;
+}
+
+.btn-submit {
+    padding: 7px 25px;
+    background-color: #01ACC6;
+    color: #fff;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    display: block;
+}
