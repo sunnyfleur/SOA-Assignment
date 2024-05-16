@@ -24,21 +24,20 @@ namespace SOA_Assignment
                 options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
             });
             builder.Services.AddDbContext<OrderContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddDbContext<YourDbContext>(options =>
-              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Thêm dịch vụ CORS
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowSpecificOrigin",
-                    builder => builder.WithOrigins("http://localhost:5174")
+                    builder => builder.WithOrigins("http://localhost:5173")
                                       .AllowAnyHeader()
                                       .AllowAnyMethod());
             });
 
             var app = builder.Build();
-
 
             if (app.Environment.IsDevelopment())
             {
@@ -46,22 +45,25 @@ namespace SOA_Assignment
                 app.UseSwaggerUI();
                 app.UseDeveloperExceptionPage();
             }
-            app.UseRouting();
-            app.UseMiddleware<RateLimitingMiddleware>();
+
             app.UseHttpsRedirection();
 
             // Áp dụng chính sách CORS trước UseAuthorization
             app.UseCors("AllowSpecificOrigin");
 
+            app.UseRouting();
+
+            app.UseMiddleware<RateLimitingMiddleware>();
+
             app.UseAuthorization();
+
             app.MapControllers();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
             app.Run();
         }
-
     }
-
 }
