@@ -2,6 +2,8 @@ using SOA_Assignment.Models;
 using SOA_Assignment.Services;
 using SOA_Assignment;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 namespace SOA_Assignment
 {
@@ -14,6 +16,8 @@ namespace SOA_Assignment
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddDbContext<YourDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.Configure<List<BackendService>>(
                 builder.Configuration.GetSection("BackendServices"));
             builder.Services.AddSingleton<ILoadBalancerService, LoadBalancerService>();

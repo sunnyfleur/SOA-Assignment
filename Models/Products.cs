@@ -21,5 +21,4 @@ public class Product
 
     [ForeignKey("Category")]
     public int CategoryID { get; set; }
-    public Category Category { get; set; }
 }

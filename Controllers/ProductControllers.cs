@@ -41,14 +41,30 @@ namespace SOA_Assignment.Controllers
 
         // POST: api/Products
         [HttpPost]
-        public async Task<ActionResult<Product>> PostProduct(Product product)
+        public async Task<IActionResult> PostProduct(Product product)
         {
-            _context.Products.Add(product);
-            await _context.SaveChangesAsync();
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _context.Products.Add(product);
+                    await _context.SaveChangesAsync();
+                    return CreatedAtAction("GetProduct", new { id = product.ProductID }, product);
+                }
+                else
+                {
+                    return BadRequest(ModelState);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception for further investigation
+                Console.WriteLine($"Error occurred while saving the product: {ex.Message}");
 
-            return CreatedAtAction("GetProduct", new { id = product.ProductID }, product);
+                // Return an internal server error response
+                return StatusCode(500, "An error occurred while saving the product. Please try again later.");
+            }
         }
-
         // PUT: api/Products/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProduct(int id, Product product)

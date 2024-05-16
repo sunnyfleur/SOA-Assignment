@@ -10,5 +10,4 @@ public class Category
     [StringLength(255)]
     public string CategoryName { get; set; }
 
-    public ICollection<Product> Products { get; set; }
 }

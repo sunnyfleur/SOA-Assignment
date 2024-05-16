@@ -102,3 +102,5 @@ C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\runtimes\win\li
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\Frontend\package-lock.json
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\Frontend\package.json
