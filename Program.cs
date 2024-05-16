@@ -4,6 +4,7 @@ using SOA_Assignment;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using SOA_Assignment.Common;
+using System.Text.Json.Serialization;
 
 namespace SOA_Assignment
 {
@@ -18,10 +19,12 @@ namespace SOA_Assignment
 
             builder.Services.AddMemoryCache();
 
-            //builder.Services.Configure<List<BackendService>>(
-            //    builder.Configuration.GetSection("BackendServices"));
-            //builder.Services.AddSingleton<ILoadBalancerService, LoadBalancerService>();
-
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+            });
+            builder.Services.AddDbContext<OrderContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddDbContext<YourDbContext>(options =>
               options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -45,7 +48,7 @@ namespace SOA_Assignment
             });
             app.Run();
         }
-       
+
     }
 
 }

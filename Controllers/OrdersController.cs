@@ -1,83 +1,55 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SOA_Assignment.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SOA_Assignment.Controllers
 {
-[Route("api/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private readonly YourDbContext _context;
+        private readonly OrderContext _context;
 
-        public OrdersController(YourDbContext context)
+        public OrdersController(OrderContext context)
         {
             _context = context;
         }
 
-        // POST: api/Orders
-        [HttpPost]
-        public async Task<IActionResult> CreateOrder(Orders order)
-        {
-            try
-            {
-                if (ModelState.IsValid)
-                {
-                    _context.Orders.Add(order);
-                    await _context.SaveChangesAsync();
-                    return CreatedAtAction("GetOrder", new { id = order.OrderID }, order);
-                }
-                else
-                {
-                    return BadRequest(ModelState);
-                }
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
-        }
-
-        // GET: api/Orders
         [HttpGet]
-        public async Task<IActionResult> GetOrders()
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
-            try
-            {
-                var orders = await _context.Orders.ToListAsync();
-                return Ok(orders);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
+            return await _context.Orders.Include(o => o.OrderDetails).ToListAsync();
         }
 
-        // GET: api/Orders/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetOrder(int id)
+        public async Task<ActionResult<Order>> GetOrder(int id)
         {
-            try
+            var order = await _context.Orders.Include(o => o.OrderDetails)
+                                             .FirstOrDefaultAsync(o => o.OrderID == id);
+            if (order == null)
             {
-                var order = await _context.Orders.FindAsync(id);
-                if (order == null)
-                {
-                    return NotFound();
-                }
-                return Ok(order);
+                return NotFound();
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
+            return order;
         }
 
-        // PUT: api/Orders/5
+        [HttpPost]
+        public async Task<ActionResult<Order>> CreateOrder(Order order)
+        {
+            // Thiết lập các thuộc tính điều hướng đúng cách
+            order.Customer = await _context.Customers.FindAsync(order.CustomerID);
+            foreach (var detail in order.OrderDetails)
+            {
+                detail.Product = await _context.Products.FindAsync(detail.ProductID);
+            }
+
+            _context.Orders.Add(order);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction(nameof(GetOrder), new { id = order.OrderID }, order);
+        }
+
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateOrder(int id, Orders order)
+        public async Task<IActionResult> UpdateOrder(int id, Order order)
         {
             if (id != order.OrderID)
             {
@@ -105,27 +77,19 @@ namespace SOA_Assignment.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Orders/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOrder(int id)
         {
-            try
+            var order = await _context.Orders.FindAsync(id);
+            if (order == null)
             {
-                var order = await _context.Orders.FindAsync(id);
-                if (order == null)
-                {
-                    return NotFound();
-                }
-
-                _context.Orders.Remove(order);
-                await _context.SaveChangesAsync();
-
-                return NoContent();
+                return NotFound();
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
+
+            _context.Orders.Remove(order);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
         private bool OrderExists(int id)

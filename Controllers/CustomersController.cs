@@ -17,14 +17,14 @@ namespace SOA_Assignment.Controllers
 
         // GET: api/Customers
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
+        public async Task<ActionResult<IEnumerable<Customers>>> GetCustomers()
         {
             return await _context.Customers.ToListAsync();
         }
 
         // GET: api/Customers/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Customer>> GetCustomer(int id)
+        public async Task<ActionResult<Customers>> GetCustomer(int id)
         {
             var customer = await _context.Customers.FindAsync(id);
 
@@ -38,7 +38,7 @@ namespace SOA_Assignment.Controllers
 
         // POST: api/Customers
         [HttpPost]
-        public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
+        public async Task<ActionResult<Customers>> PostCustomer(Customers customer)
         {
             _context.Customers.Add(customer);
             await _context.SaveChangesAsync();
@@ -48,7 +48,7 @@ namespace SOA_Assignment.Controllers
 
         // PUT: api/Customers/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCustomer(int id, Customer customer)
+        public async Task<IActionResult> PutCustomer(int id, Customers customer)
         {
             if (id != customer.CustomerID)
             {
