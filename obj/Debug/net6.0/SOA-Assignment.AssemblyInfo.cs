@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOA-Assignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4f52a5e7f6b0b68d2d6471abb52e99988a72580")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a48378f3a26e92e8e98d2d94c4021fb574732d39")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("SOA-Assignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOA-Assignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,12 +22,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\controllers\\productcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:controllers\\productcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\models\\yourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:models\\yourdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,6 +47,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|c:\\users\\lenovo\\documents\\github\\soa-assignment\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2B931D-65F2-4CE9-913D-290544305302}|SOA-Assignment.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +60,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 0,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
@@ -59,10 +78,21 @@
               "ViewState": "AQIAACAAAAAAAAAAAAAgwAAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T14:14:13.974Z",
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwv0IAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:24:00.956Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "ShoppingCartItem.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\ShoppingCartItem.cs",
@@ -72,20 +102,54 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T14:06:46.531Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwD8AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:20:30.074Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< Updated upstream
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Products.cs",
               "RelativeDocumentMoniker": "Models\\Products.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Models\\Products.cs",
               "RelativeToolTip": "Models\\Products.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAQwBMAAAArAAAA",
+=======
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T13:43:16.916Z",
+              "WhenOpened": "2024-05-16T21:12:54.861Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\ProductControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductControllers.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\SOA-Assignment\\Controllers\\ProductControllers.cs",
+              "RelativeToolTip": "Controllers\\ProductControllers.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswHAAAAAAAAAA",
+>>>>>>> Stashed changes
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:11:26.337Z",
+              "EditorCaption": ""
+<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
@@ -164,6 +228,8 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T13:30:37.499Z",
               "EditorCaption": ""
+=======
+>>>>>>> Stashed changes
             }
           ]
         }

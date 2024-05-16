@@ -18,14 +18,12 @@ namespace SOA_Assignment.Controllers
             _context = context;
         }
 
-        // GET: api/Products
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
             return await _context.Products.ToListAsync();
         }
 
-        // GET: api/Products/
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
@@ -39,10 +37,10 @@ namespace SOA_Assignment.Controllers
             return product;
         }
 
-        // POST: api/Products
         [HttpPost]
         public async Task<ActionResult<Product>> PostProduct(Product product)
         {
+<<<<<<< Updated upstream
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
 
@@ -50,6 +48,28 @@ namespace SOA_Assignment.Controllers
         }
 
         // PUT: api/Products/5
+=======
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    _context.Products.Add(product);
+                    await _context.SaveChangesAsync();
+                    return CreatedAtAction("GetProduct", new { id = product.ProductID }, product);
+                }
+                else
+                {
+                    return BadRequest(ModelState);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error occurred while saving the product: {ex.Message}");
+                return StatusCode(500, "An error occurred while saving the product. Please try again later.");
+            }
+        }
+
+>>>>>>> Stashed changes
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProduct(int id, Product product)
         {
@@ -79,7 +99,6 @@ namespace SOA_Assignment.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Products/
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
@@ -101,4 +120,3 @@ namespace SOA_Assignment.Controllers
         }
     }
 }
-
