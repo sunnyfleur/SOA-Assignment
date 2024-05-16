@@ -102,3 +102,84 @@ C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\runtimes\win\li
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+<<<<<<< Updated upstream
+=======
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\Frontend\package-lock.json
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\Frontend\package.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\appsettings.Development.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\appsettings.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Frontend\package-lock.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Frontend\package.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\package-lock.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\package.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\SOA-Assignment.exe
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\SOA-Assignment.deps.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\SOA-Assignment.runtimeconfig.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\SOA-Assignment.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\SOA-Assignment.pdb
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Humanizer.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.csproj.AssemblyReference.cache
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.AssemblyInfoInputs.cache
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.AssemblyInfo.cs
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.csproj.CoreCompileInputs.cache
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.MvcApplicationPartsAssemblyInfo.cs
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.MvcApplicationPartsAssemblyInfo.cache
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.sourcelink.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\staticwebassets.build.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\staticwebassets.development.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\staticwebassets\msbuild.SOA-Assignment.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\staticwebassets\msbuild.build.SOA-Assignment.props
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SOA-Assignment.props
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SOA-Assignment.props
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\scopedcss\bundle\SOA-Assignment.styles.css
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assi.91D6E614.Up2Date
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\refint\SOA-Assignment.dll
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.pdb
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\SOA-Assignment.genruntimeconfig.cache
+D:\Study\Data\Kỳ 6\SOA\SOA-Assignment\obj\Debug\net6.0\ref\SOA-Assignment.dll
+>>>>>>> Stashed changes

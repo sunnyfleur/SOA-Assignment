@@ -18,6 +18,15 @@ namespace SOA_Assignment
                 builder.Configuration.GetSection("BackendServices"));
             builder.Services.AddSingleton<ILoadBalancerService, LoadBalancerService>();
 
+            // Thêm dịch vụ CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin",
+                    builder => builder.WithOrigins("http://localhost:5174")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod());
+            });
+
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())
@@ -27,6 +36,10 @@ namespace SOA_Assignment
             }
 
             app.UseHttpsRedirection();
+
+            // Áp dụng chính sách CORS trước UseAuthorization
+            app.UseCors("AllowSpecificOrigin");
+
             app.UseAuthorization();
             app.MapControllers();
             app.Run();
