@@ -3,23 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 public class Product
 {
-    [Key]
-    public int ProductID { get; set; }
-
-    [Required]
-    [StringLength(255)]
+    [Key] public int ProductID { get; set; }
     public string ProductName { get; set; }
-
-    [Required]
-    [Column(TypeName = "decimal(10, 2)")]
     public decimal Price { get; set; }
-
-    [Required]
     public int Stock { get; set; }
-
     public string Description { get; set; }
-
-    [ForeignKey("Category")]
     public int CategoryID { get; set; }
-    public Category Category { get; set; }
 }

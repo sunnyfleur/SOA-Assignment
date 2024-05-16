@@ -1,7 +1,10 @@
-using SOA_Assignment.Models;
+﻿using SOA_Assignment.Models;
 using SOA_Assignment.Services;
 using SOA_Assignment;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using SOA_Assignment.Common;
+using System.Text.Json.Serialization;
 
 namespace SOA_Assignment
 {
@@ -14,9 +17,16 @@ namespace SOA_Assignment
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.Configure<List<BackendService>>(
-                builder.Configuration.GetSection("BackendServices"));
-            builder.Services.AddSingleton<ILoadBalancerService, LoadBalancerService>();
+            builder.Services.AddMemoryCache();
+
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+            });
+            builder.Services.AddDbContext<OrderContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddDbContext<YourDbContext>(options =>
+              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Thêm dịch vụ CORS
             builder.Services.AddCors(options =>
@@ -29,12 +39,15 @@ namespace SOA_Assignment
 
             var app = builder.Build();
 
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
+                app.UseDeveloperExceptionPage();
             }
-
+            app.UseRouting();
+            app.UseMiddleware<RateLimitingMiddleware>();
             app.UseHttpsRedirection();
 
             // Áp dụng chính sách CORS trước UseAuthorization
@@ -42,7 +55,13 @@ namespace SOA_Assignment
 
             app.UseAuthorization();
             app.MapControllers();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
             app.Run();
         }
+
     }
+
 }
