@@ -223,3 +223,8 @@ C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\Frontend\packag
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\Frontend\package-lock.json
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\package-lock.json
 C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\package.json
+D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\package-lock.json
+D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\package.json
+D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\EntityFramework.dll
+D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\System.CodeDom.dll
