@@ -8,7 +8,7 @@ namespace SOA_Assignment.Common
 {
     public class JwtManager
     {
-        public static string GenerateToken(ApplicationUser user, string secretKey)
+        public static string GenerateToken(Employee user, string secretKey, string issuer, string audience)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(secretKey);
@@ -16,9 +16,12 @@ namespace SOA_Assignment.Common
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                new Claim(ClaimTypes.Name, user.Username)
+                    new Claim(ClaimTypes.NameIdentifier, user.EmployeeId.ToString()),
+                    new Claim(ClaimTypes.Name, user.Username)
                 }),
                 Expires = DateTime.UtcNow.AddHours(2),
+                Issuer = issuer,
+                Audience = audience,
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 

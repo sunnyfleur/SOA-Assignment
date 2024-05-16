@@ -1,10 +1,8 @@
 ﻿namespace SOA_Assignment.Models
 {
-    public class ApplicationUser
+    public class LoginModel
     {
         public string Username { get; set; }
-        public string Password { get; set; } 
+        public string Password { get; set; }
     }
 }
-
-

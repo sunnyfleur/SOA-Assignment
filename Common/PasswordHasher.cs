@@ -23,4 +23,7 @@ namespace SOA_Assignment.Common
                 return enteredHash == storedHash;
             }
         }
+
+
     }
+}
