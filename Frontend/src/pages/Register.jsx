@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import "../css/Register.css";
 
 function Register() {
@@ -12,6 +13,7 @@ function Register() {
   });
 
   const [errors, setErrors] = useState({});
+  const [message, setMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -44,11 +46,17 @@ function Register() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (validate()) {
-      console.log('Form submitted successfully');
-      // Handle form submission (e.g., send data to API)
+      try {
+        const response = await axios.post('https://localhost:20560/api/Account/register', formData);
+        if (response.status === 200) {
+          setMessage('Registration successful!');
+        }
+      } catch (error) {
+        setMessage('Registration failed. Please try again.');
+      }
     }
   };
 
@@ -110,7 +118,7 @@ function Register() {
           {errors.address && <span className="error">{errors.address}</span>}
 
           <input 
-            type="text" 
+            type="password" 
             className="info" 
             placeholder='Password' 
             name="password" 
@@ -122,6 +130,7 @@ function Register() {
           <div className="submit">
             <button type="submit" className='btn-submit'>Register</button>
           </div>
+          {message && <span className="message">{message}</span>}
         </form>
       </div>
     </div>
