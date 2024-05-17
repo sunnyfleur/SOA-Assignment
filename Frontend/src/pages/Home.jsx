@@ -4,6 +4,7 @@ import { IoSearch } from "react-icons/io5";
 import axios from "axios";
 
 function Home() {
+  const nav = useNavigate();
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedProducts, setSelectedProducts] = useState([]);

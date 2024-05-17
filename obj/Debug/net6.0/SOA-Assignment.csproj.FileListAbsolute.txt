@@ -228,3 +228,6 @@ D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\package.
 D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\EntityFramework.SqlServer.dll
 D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\EntityFramework.dll
 D:\Project\CShardProject\SOA-Assignment\SOA-Assignment\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\Lenovo\Documents\GitHub\SOA-Assignment\bin\Debug\net6.0\System.CodeDom.dll

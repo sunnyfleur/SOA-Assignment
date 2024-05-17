@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import "../css/Register.css";
+import { useNavigate } from 'react-router-dom';
 
 function Register() {
+  const nav = useNavigate();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
     email: '',
     phone: '',
     address: '',
+    userName: '',
     password: ''
   });
 
@@ -30,6 +33,7 @@ function Register() {
     if (!formData.firstName) newErrors.firstName = 'First Name is required';
     if (!formData.lastName) newErrors.lastName = 'Last Name is required';
     if (!formData.email) newErrors.email = 'Email is required';
+    if (!formData.userName) newErrors.userName = 'UserName is required';
     if (!formData.phone) newErrors.phone = 'Phone number is required';
     if (!formData.address) newErrors.address = 'Address is required';
     if (!formData.password) newErrors.password = 'Password is required';
@@ -53,6 +57,7 @@ function Register() {
         const response = await axios.post('https://localhost:20560/api/Account/register', formData);
         if (response.status === 200) {
           setMessage('Registration successful!');
+          nav("/login");
         }
       } catch (error) {
         setMessage('Registration failed. Please try again.');
@@ -88,7 +93,7 @@ function Register() {
           {errors.lastName && <span className="error">{errors.lastName}</span>}
 
           <input 
-            type="email" 
+            type="text" 
             className="info" 
             placeholder='Email' 
             name="email" 
@@ -96,6 +101,15 @@ function Register() {
             onChange={handleChange} 
           />
           {errors.email && <span className="error">{errors.email}</span>}
+          <input 
+            type="text" 
+            className="info" 
+            placeholder='UserName' 
+            name="userName" 
+            value={formData.userName} 
+            onChange={handleChange} 
+          />
+          {errors.userName && <span className="error">{errors.userName}</span>}
 
           <input 
             type="text" 

@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import "../css/Login.css";
 import { LuUser2 } from "react-icons/lu";
-import { Link } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 
 function Login() {
+  const nav = useNavigate();
   const [formData, setFormData] = useState({
     username: '',
     password: ''
@@ -27,6 +28,7 @@ function Login() {
       const response = await axios.post('https://localhost:20560/api/Account/login', formData);
       if (response.status === 200) {
         setMessage('Login successful!');
+        nav("/");
         setError('');
         // Bạn có thể thêm logic để chuyển hướng người dùng tới trang khác khi đăng nhập thành công
       }
